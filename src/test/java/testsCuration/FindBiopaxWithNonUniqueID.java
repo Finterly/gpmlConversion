@@ -19,13 +19,9 @@ package testsCuration;
 import java.io.File;
 import java.io.FilenameFilter;
 import java.io.IOException;
-import java.net.URL;
-import java.util.ArrayList;
 import java.util.Arrays;
-import java.util.Collections;
 import java.util.HashMap;
 import java.util.HashSet;
-import java.util.List;
 import java.util.Map;
 import java.util.Set;
 
@@ -34,10 +30,7 @@ import org.jdom2.Element;
 import org.jdom2.JDOMException;
 import org.jdom2.Namespace;
 import org.jdom2.input.SAXBuilder;
-import org.jdom2.input.sax.XMLReaderJDOMFactory;
-import org.jdom2.input.sax.XMLReaderXSDFactory;
 import org.pathvisio.libgpml.io.ConverterException;
-import org.pathvisio.libgpml.model.*;
 
 import junit.framework.TestCase;
 

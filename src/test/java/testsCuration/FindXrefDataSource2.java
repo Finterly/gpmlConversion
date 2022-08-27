@@ -14,26 +14,20 @@
  * License for the specific language governing permissions and limitations under
  * the License.
  ******************************************************************************/
-package org.pathvisio.libgpml.libgpml.util;
+package testsCuration;
 
 import java.io.File;
 import java.io.FilenameFilter;
 import java.io.IOException;
-import java.util.ArrayList;
 import java.util.Arrays;
-import java.util.Collections;
-import java.util.HashSet;
 import java.util.List;
-import java.util.Set;
 
-import org.bridgedb.DataSource;
 import org.bridgedb.bio.DataSourceTxt;
 import org.jdom2.Document;
 import org.jdom2.Element;
 import org.jdom2.JDOMException;
 import org.jdom2.input.SAXBuilder;
-import org.pathvisio.libgpml.libgpml.io.ConverterException;
-
+import org.pathvisio.libgpml.io.ConverterException;
 import junit.framework.TestCase;
 
 /**

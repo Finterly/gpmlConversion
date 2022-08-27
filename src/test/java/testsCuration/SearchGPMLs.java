@@ -19,13 +19,10 @@ package testsCuration;
 import java.io.File;
 import java.io.FilenameFilter;
 import java.io.IOException;
-
 import java.util.Arrays;
 import java.util.HashSet;
 import java.util.List;
-import java.util.Map;
 import java.util.Set;
-import java.util.TreeMap;
 
 import org.jdom2.Document;
 import org.jdom2.Element;

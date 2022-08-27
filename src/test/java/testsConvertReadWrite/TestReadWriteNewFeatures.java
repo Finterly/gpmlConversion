@@ -21,9 +21,9 @@ import java.io.IOException;
 import java.net.URL;
 
 import org.pathvisio.libgpml.io.ConverterException;
-import org.pathvisio.libgpml.model.GPML2021Writer;
 import org.pathvisio.libgpml.model.Citation;
 import org.pathvisio.libgpml.model.DataNode;
+import org.pathvisio.libgpml.model.GPML2021Writer;
 import org.pathvisio.libgpml.model.Group;
 import org.pathvisio.libgpml.model.PathwayElement.AnnotationRef;
 import org.pathvisio.libgpml.model.PathwayElement.EvidenceRef;
@@ -78,8 +78,7 @@ public class TestReadWriteNewFeatures extends TestCase {
 		 * "virus".
 		 */
 		Shape virus = (Shape) pathwayModel.getPathwayObject("f2086");
-		ShapeType virusShape = ShapeType.register("virus",);
-		virus.setShapeType(virusShape);
+		virus.setShapeType(ShapeType.CORONAVIRUS_ICON);
 
 		/**
 		 * Customize graphics features of group. Change shapeTypes to triangle,
